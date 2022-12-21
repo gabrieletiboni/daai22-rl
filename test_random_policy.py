@@ -22,7 +22,7 @@ def main():
     print('Action space:', env.action_space)  # action-space
     print('Dynamics parameters:', env.get_parameters())  # masses of each link of the Hopper
 
-    n_episodes = 500
+    n_episodes = 10
 
     for ep in range(n_episodes):  
         done = False
